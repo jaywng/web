@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      var degrees = [22, 24.5, 26, 27, 28.4, 30];
+      var sum = 0;
+      var a = new Array("이규림","황선기","우현종")
+
+      for (var i = 0; i < degrees.length; i++) {
+        sum += degrees[i]
+
+      }
+      document.write("평균온도는 " + sum/degrees.length + "입니다.<br />");
+      document.write("놀고 있는 셋: " + a.join(" ") + "<br />" );
+      document.write("따로노는 사람: " + a.slice(1, 2) + "<br />" );
+
+      for (var i = 0; i < 10; i++) {
+        var rn = Math.random() * 100;
+        <!-- var rn_int = Math.floor(rn); -->
+        document.write(rn + "<br />")
+      10}
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>
